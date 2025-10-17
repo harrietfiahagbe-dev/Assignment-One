@@ -1,8 +1,9 @@
 public class TestBankAccount {
     public static void main(String[] args) {
 
-        System.out.println("------TESTING BEGINNING!------");
         //Testing the BankAccount Class
+        System.out.println("------TESTING BEGINNING!------");
+
 
         //Checking and passing the opening balance of each account
         BankAccount current_money = new BankAccount(AccountType.CURRENT,"CM01", 1000);
